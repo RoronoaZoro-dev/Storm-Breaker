@@ -1,3 +1,5 @@
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/648d564c-387e-485d-8eb3-423f6afde4d2" />
+
 #Storm-Breaker
 
 Storm-Breaker is a web-based tool designed for educational and research purposes, demonstrating how browser-based permissions and user interactions can expose device-level information.
