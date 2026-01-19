@@ -1,0 +1,77 @@
+html,
+body {
+  height: 100%;
+}
+
+/* ===== BODY BACKGROUND ===== */
+body {
+  margin: 0;
+  overflow: hidden;
+
+  /* SINGLE FULLSCREEN BACKGROUND IMAGE */
+  background-image: url("zz.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ===== HEADINGS ===== */
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 5%;
+  left: 0;
+  right: 0;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 15%;
+  left: 0;
+  right: 0;
+}
+
+/* ===== HIDE ANY IMAGE TAG ===== */
+img {
+  display: none;
+}
+
+/* ===== BUTTON (UNCHANGED) ===== */
+.button {
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding: 14px 40px;
+  border-radius: 6px;
+  width: 50%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  position: fixed;
+  left: 25%;
+  bottom: 10%;
+  transition: none;
+}
+
+/* ===== TEXT OUTPUT ===== */
+.text {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 22%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/* ===== REMOVE MIDDLE IMAGE COMPLETELY ===== */
+.earth {
+  display: none;
+}

